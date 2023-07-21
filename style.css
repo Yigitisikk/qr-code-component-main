@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Renkler */
+
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    background-color: var(--Grayish-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 315px;
+}
+
+.qr-container{
+    background-color: var(--White);
+    width: 320px;
+    padding: 1rem 1rem 3rem 1rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.qr-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+.qr-info h1{
+    font-size: 1.5rem;
+}
+
+.qr-info p{
+    font-size: 1.1rem;
+    color: rgba(0, 0, 0, .4);
+}
+
