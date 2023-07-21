@@ -19,7 +19,7 @@
 body{
     font-family: 'Outfit', sans-serif;
     font-size: 15px;
-    background-color: var(--Grayish-blue);
+    background-color: var(--Light-gray);
     display: flex;
     align-items: center;
     justify-content: center;
