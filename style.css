@@ -54,6 +54,7 @@ img{
 
 .qr-info h1{
     font-size: 1.5rem;
+    color: var(--Dark-blue);
 }
 
 .qr-info p{
